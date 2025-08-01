@@ -1,0 +1,17 @@
+# greeting program
+name = input("enter your name")
+age = int(input("enter your age"))
+print("hello" , name)
+print("your age will be",age+1 , "next year")
+
+#calculator
+a = int(input("enter first number"))
+b = int(input("enter second number"))
+print("sum is",a+b)
+print("diffrence is" , (a-b) )
+print("product is",(a*b))
+print("division is",(a/b))
+
+#swapping two numbers
+a ,b = b,a
+print("after swapping a",a ,"b",b)
