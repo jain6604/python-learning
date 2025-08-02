@@ -1,0 +1,26 @@
+#user first name
+str = "saksham jain"
+print(str[0:8])
+print(len("saksham"))
+
+str2 = "string$ i$ $imple"
+print(str2.count("$"))
+
+#odd or even
+num1 = int(input("enter the value "))
+rem = num1%2
+
+if(rem == 0):
+    print("even")
+else:
+    print("odd")
+#greatest number  among 3
+num2 = int(input("enter the value"))
+num3 = int(input("enter the value"))
+
+if(num1>num2 and num1>num3):
+    print("num1 is greatest")
+elif(num2>num3):
+    print("num2 is greatest")
+else:
+    print("num3 is greatest")
