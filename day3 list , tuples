@@ -1,0 +1,37 @@
+#input 3 movies and store them in list
+movies = []
+mov1 = input("enter the first movie")
+mov2 = input("enter the second movie")
+mov3 = input("enter the third movie")
+movies.append(mov1)
+movies.append(mov2)
+movies.append(mov3)
+print(movies)
+
+#check if list contains palindrome of element
+
+list1 = [1 ,2 ,1]
+list2 = [1,2,3]
+copy_list1 = list1.copy()
+copy_list1.reverse()
+
+if(copy_list1 == list1):
+    print("palindrome")
+else:
+    print("not palindrome")
+
+copy_list2 = list2.copy()
+copy_list2.reverse()
+
+if(copy_list2 == list2.copy):
+    print("palindrome")
+else:
+    print("not palindrome")
+
+#counting
+grades = ["c" , "a" , "d" , "d" , "b" , "b" , "a" , "b"]
+print(grades.count("a")) 
+
+#sorting
+print(grades.sort())
+print(grades)
