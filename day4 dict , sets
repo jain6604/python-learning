@@ -1,0 +1,39 @@
+#1 . storing meanings in dictionary
+dictionary = {
+    "table": ["a peice of furniture" , "lists of facts and figures"],
+    "cat" : " a small animal",
+}
+
+print(dictionary)
+
+#2 . given a list of subject for students. assume one classroom is for 1 subject
+#how many classroom are needed by all student
+
+subject = {"python" , "java" , "c++" , "python" , "javascript" , "java" , "python" ,
+           "java" , "c++" , "c"}
+print(len(subject))
+#length will be no. of classroom required
+
+#3 . create a empty dict , then add sybject and marks
+subjects = {}
+
+x = float(input("Enter the marks"))
+subjects.update({"physics":x})
+
+y = int(input("enter the marks"))
+subjects.update({"maths":y})
+
+z = float(input("enter the marks"))
+subjects.update({"chenistry":z})
+
+print(subjects)
+
+#4 . storing 9 and 9.0 as seperate valur in set
+values = {
+    ("float",9.0),
+    ("int",9)
+}
+print(values)  #using built types
+
+values1 = {9 , "9,0"}
+print(values1) #using string
