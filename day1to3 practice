@@ -1,0 +1,48 @@
+#1
+n = int(input("enter the number"))
+rem = n%2
+if(rem == 0):
+    print("even value")
+else:
+    print("odd")    
+
+#2
+str = "saksham jain"
+rev = str[::-1]
+print(rev)
+
+#3
+list1 = [10 , 30 , 50 , 20]
+max_num = list1[0] #assum first element is both min and maximum
+min_num = list1[0]
+for num in list1:
+    if num > max_num:
+        max_num = num
+    if num < min_num:
+        min_num = num
+
+print("maximum" , max_num)
+print("minimum" , min_num)        
+
+#4
+list2 = [1,2,1]
+copylist2 = list2.copy()
+copylist2.reverse()
+
+if (list2 == copylist2):
+    print("palindrome")
+else:
+    print("not palindrome")
+
+#5
+A = int(input("enter the selling price"))
+B = int(input("enter the cost of ingredients"))
+C = int(input("enter the vegetable cost"))
+profit = A-B-C
+print(profit)
+if profit > 0:
+    print("gain of" , profit )
+elif profit < 0:
+    print("loss of", profit )
+else:
+    print("no profit no loss")    
