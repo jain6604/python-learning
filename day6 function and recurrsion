@@ -1,0 +1,56 @@
+#to print lenght of a list
+def list_len(list):
+    print(len(list))
+    return list
+
+names = ["saksham" , "naman" , "shubhi" , "sagar" , "diviksha" , "deshna"]
+list_len(names)
+
+#to find factorial
+def calc_fact(n):
+    fact = 1
+    for i in range(1 , n+1):
+        fact *= i
+    print(fact)  #if print is in for loop it will give factorial of 1 2 3 4 5 6 7
+    return n
+
+calc_fact(7)    
+
+#usd to inr
+def calc_inr(n1):
+    usd = 80
+    inr = usd*n1
+    print(inr)
+    return inr
+
+calc_inr(40)
+
+#odd even
+def number_is(n2):
+    rem = n2%2
+    if (rem == 0):
+        print("even")
+    else:
+        print("odd")
+
+    return n2
+
+number_is(8)   
+number_is(17) 
+
+#print sum of n natural numbers
+
+def calc_sum(n):
+    if (n == 0):
+        return 0 
+    return calc_sum(n-1) + n
+
+sum = calc_sum(8)
+print(sum)
+    
+#recurrsion using factorial
+def fact(n):
+    if(n == 1 or n == 0):
+        return 1
+    return fact(n-1) * n
+print(fact(4))
