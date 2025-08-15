@@ -26,6 +26,29 @@ Following a **premium-style plan** with revision, problem-solving, contests, and
 - Difference between mutable & immutable types
 - Efficient string slicing in Python
 - Loop and conditional logic for problem solving
+- ---
+
+### **Day 6 (14th Aug 2025)**
+**Python (Lecture 6)**
+- Functions in Python – defining, calling, return values
+- Function arguments – positional, keyword, default, variable length
+- Scope – local & global variables
+- Lambda functions – syntax & use cases
+- Recursion – concept, base case, and examples
+
+**DSA**
+- Striver A2Z Step 1 – Continued
+- CodeChef Problems: Difficulty 135, 144, 145
+
+**Other**
+- Revision of Day 4 & Day 5 concepts
+- Practiced Python problems (functions, recursion & loops)
+
+**Key Learnings**
+- When to use `*args` vs `**kwargs`
+- Lambda for quick inline operations
+- Recursion for breaking down complex problems
+- Using functions to reduce repetitive code
 
 ---
 
@@ -38,4 +61,5 @@ Following a **premium-style plan** with revision, problem-solving, contests, and
 - [day4 dict, sets](day4%20dict%20,%20sets)
 - [day5 for and while loop](day5%20for%20and%20while%20loop)
 - [tut1.py](tut1.py)
+- [day 6 function and recurrsion](day%206%20function%20and%20recurrsion)
 
