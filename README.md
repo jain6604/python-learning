@@ -61,5 +61,5 @@ Following a **premium-style plan** with revision, problem-solving, contests, and
 - [day4 dict, sets](day4%20dict%20,%20sets)
 - [day5 for and while loop](day5%20for%20and%20while%20loop)
 - [tut1.py](tut1.py)
-- [day 6 function and recurrsion](day%206%20function%20and%20recurrsion)
+- [day6 function and recurrsion](day%206%20function%20and%20recurrsion)
 
