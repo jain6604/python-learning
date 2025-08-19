@@ -1,0 +1,44 @@
+#file input output
+#f = open("1.txt" , "r") #r means read mode it is default mode
+#data = f.read()
+#line1 = f.readline() #will read 1 line at a time
+#print(line1)
+#print(type(line1))
+#f.close()  #file should be closed always
+
+
+#write to a file
+#f = open("1.txt " , "a") #w means overwrite
+#a means append
+#f. write("i am in ujjain")
+#now check your file it will be overwritten
+
+#f.write("also in banglore")
+#f.close() #always close file
+
+#create a file
+#f = open("sample.txt" , "w")
+#f.close()
+#a sample txt file will be created
+
+# + is used to open a disk file for editing for eg a+ , w+ , r+
+#r+ read and overwrite (pointer is at start) - no truncate
+#w+ same but truncate
+#a+ read and append (pointer at end) - no truncate
+#truncate means file data is deleted
+
+
+#WITH SYNTAX
+with open("1.txt" , "r") as f:
+    data = f.read()
+    print(data)
+
+with open("1.txt" , "w") as f:
+    f.write("new data")
+
+#deleting
+import os
+
+os.remove("sample.txt")
+    #we can import and module which is installed
+    #to install a module we can use pip install (module name)
