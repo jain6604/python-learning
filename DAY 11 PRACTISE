@@ -1,0 +1,71 @@
+#MAX/MIN
+marks = [100 , 30 , 40 , 60 , 50 ]
+marks.sort()
+print("min marks are" , marks[0])
+print("max marks are" , marks[4])
+
+min_marks = marks[0]
+max_marks = marks[0]
+for num in marks:
+    if num < min_marks:
+        min_marks = num
+    elif num > max_marks:
+        max_marks = num
+
+print("min marks are" , min_marks)
+print("max marks are" , max_marks)   
+
+#reverse
+grades = ["a" , "b" , "c"]
+grades_copy = grades.copy()
+grades_copy.reverse()
+print(grades_copy)
+
+nums = [1,2,3]
+nums_reversing = nums[::-1]
+print(nums_reversing)
+
+#removing repeated
+list1 = ["a" , "b" , "c" , "d" , "c" , "a"] #(not preserve old order)
+list2 = []
+unique_list1 = list(set(list1))    
+print(unique_list1)
+
+for str in list1:
+    if str not in list2:   #(will preserve old order)
+        list2.append(str)
+
+print(list2)
+
+#frequency
+Students = ["saksham" , "toshit" , "saksham" , "aditya"]
+print(Students.count("saksham")) 
+
+#merging 2 list
+list3 = [10 , 20 , 30]
+list4 = [30 , 40 , 50]
+merged = list3 + list4
+unique = list(set(merged))
+print(unique)
+
+list5 = [10 , 20 , 30 , 40]
+list6 = [40 , 50 , 60]
+merged1 = list5 + list6
+unique2 = []
+
+for num in merged1:
+    if num not in unique2:
+        unique2.append(num)
+
+print(unique2)
+
+#index of element
+list7 = [10,20,30,40,50]
+print(list7.index(30))
+
+#list to tuple
+list8 = ["bahubali" , "yogi" , "samrat" , "pushpa"]
+tup = tuple(list8)
+print(tup)
+
+
