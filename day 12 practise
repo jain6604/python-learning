@@ -1,0 +1,45 @@
+#1
+Student  = {
+    "name" : "saksham",
+    "usn"  :  "1MS23EI074",
+    "YEAR" : "2ND",
+    "college" : "msrit"
+
+}
+print(Student)
+
+#2
+student = {
+    "name": "Ravi",
+    "marks": {"math": 88, "science": 92}
+}
+student["marks"]["science"] = 95
+print(student)
+
+#3
+dict1 = {
+    "a" : 1,
+    "b" : 2
+}
+dict2 = {
+    "b" : 3,
+    "c" : 4
+}
+merged = {}
+for key in dict1:
+    merged[key] = dict1[key]
+for key in dict2:
+    if key in dict1:
+        merged[key] += dict2[key]
+    else:
+        merged[key] = dict2[key]
+
+print(merged)            
+
+#4
+set1 = {1 , 2 , 3 }
+set2 = {2 , 3 , 4}
+print(set1.intersection(set2))
+print(set1.union(set2))
+
+
